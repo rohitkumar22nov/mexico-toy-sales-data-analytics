@@ -36,3 +36,17 @@ The analysis answers critical business questions through advanced SQL queries:
 * **Total Revenue**: Reached $2.71M with strong structural profit margins across prime store locations.
 * **Seasonality**: Sales volume spikes significantly during seasonal holiday windows, requiring tighter inventory buffers.
 * **Top Categories**: Art & Crafts and standard Toys drive the highest transaction volumes across regional branches.
+
+
+---
+
+## 🖼️ Database & Model Schema Diagrams
+
+### SQL Relational ER Diagram
+![SQL Schema](Table_Schema_Relation_SQL.PNG)
+
+### Power BI Relationship Schema
+![Power BI Schema](Table_Schema_Relation_PowerBI.PNG)
+
+
+
