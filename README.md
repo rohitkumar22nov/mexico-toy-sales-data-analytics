@@ -32,6 +32,17 @@ The analysis answers critical business questions through advanced SQL queries:
 
 ---
 
+## 📊 Key Power BI DAX Measures
+
+| Measure Name | DAX Formula |
+| :--- | :--- |
+| **Active Stores Count** | `COUNTROWS(stores)` |
+| **Total Profit** | `SUMX(sales, sales[Units] * (RELATED(products[Product_Price]) - RELATED(products[Product_Cost])))` |
+| **Total Revenue** | `SUMX(sales, sales[Units] * RELATED(products[Product_Price]))` |
+| **Total Stock-In-Hand** | `SUM(inventory[Stock_On_Hand])` |
+| **Total Units Sold** | `SUM(sales[Units])` |
+
+
 ## 📈 Key Insights & Dashboard Preview
 * **Total Revenue**: Reached $2.71M with strong structural profit margins across prime store locations.
 * **Seasonality**: Sales volume spikes significantly during seasonal holiday windows, requiring tighter inventory buffers.
