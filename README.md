@@ -48,5 +48,5 @@ The analysis answers critical business questions through advanced SQL queries:
 ### Power BI Relationship Schema
 ![Power BI Schema](Table_Schema_Relation_PowerBI.PNG)
 
-
-
+### Power BI Dashboard
+![Power BI Dashboard](Power_BI_Dashboard_MexicoToySales.PNG)
